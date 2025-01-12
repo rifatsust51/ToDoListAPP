@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+   background-color:wheat;
+   height: 100vh;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+}
+.card{
+    background-color: #222222;
+    color: white;
+    padding: 1 rem;
+    min-height: 80vh;
+    width: 50%;
+    overflow: scroll;
+    border-radius: 10px;
+}
+.card-title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem ;
+}
+.todo-input{
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 80%;
+    margin-left: 10px;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    color: white;
+    background-color: rgb(255, 191, 0);
+    cursor:pointer;
+    transition: all 0.3s;
+    width: 15%;
+}
+.btn:hover{
+    background-color: white;
+    color : black
+}
+@media (max-width: 700px) {
+    .btn {
+        width: 20%;
+     
+    }
+    .todo-input{
+        width: 70%;
+    }
+  }
+....
