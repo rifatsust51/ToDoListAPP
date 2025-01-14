@@ -4,7 +4,7 @@
 <h3>This App can Delete tasks and show a success message "ToDo removed successfully" </h3>
 <h3>Those tasks are deleted they are also deleted from LocalStorage </h3>
 <video controls width="400">
-  <source src="https://www.kapwing.com/videos/67864db57d3b553c8201bdd2.mp4" type="video/mp4">
+  <source src="https://www.kapwing.com/videos/67864db57d3b553c8201bdd2" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
