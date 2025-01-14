@@ -23,20 +23,19 @@ html{
     padding: 1 rem;
     min-height: 80vh;
     width: 50%;
-    overflow: scroll;
-    border-radius: 10px;
+    overflow: auto;
+    border-radius: 8px;
 }
 .card-title{
     font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 1rem;
-    margin-top: 1rem ;
+    margin : 1rem 0;
 }
 .todo-input{
     border: none;
     border-radius: 10px;
     padding: 0.5rem;
-    width: 80%;
+    width: 89%;
     margin-left: 10px;
 }
 .btn{
@@ -47,19 +46,60 @@ html{
     background-color: rgb(255, 191, 0);
     cursor:pointer;
     transition: all 0.3s;
-    width: 15%;
+    min-width: 40px;
 }
 .btn:hover{
     background-color: white;
     color : black
 }
-@media (max-width: 700px) {
+@media (max-width: 1050px) {
     .btn {
-        width: 20%;
+        width: 25%;
      
     }
     .todo-input{
-        width: 70%;
+        width: 60%;
     }
-  }
-....
+}
+@media (max-width: 768px) {
+    .btn {
+        width: 25%;
+    }
+    .todo-input {
+        width: 65%;
+    }
+}
+
+
+.li-style{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 0.1rem;
+    margin: 1rem 8px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+.li-style:hover{
+    background-color: #111;
+}
+.bg-success{
+    margin: 0.5rem 0.6rem;
+    padding: 0.5rem;
+    color: black;
+    background-color: #ddffdd;
+    border-radius: 6px;
+    width: 95%;
+}
+.bg-danger{
+    margin: 0.5rem 0.6rem;
+    padding: 0.5rem;
+    color: black;
+    background-color: #ffdddd;
+    border-radius: 6px;
+    width: 95%;
+}
