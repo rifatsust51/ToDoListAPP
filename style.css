@@ -71,10 +71,10 @@ html{
 }
 @media (max-width: 480px) {
     .btn {
-        width: 50%;
+        width: 25%;
     }
     .todo-input {
-        width: 80%;
+        width: 55%;
     }
     .card{
         width: 90%;
