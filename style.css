@@ -71,7 +71,7 @@ html{
 }
 @media (max-width: 480px) {
     .btn {
-        width: 25%;
+        width: 23.5%;
         padding: 0.8rem;
     }
     .todo-input {
