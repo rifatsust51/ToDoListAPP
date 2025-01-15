@@ -69,7 +69,18 @@ html{
         width: 65%;
     }
 }
-
+@media (max-width: 480px) {
+    .btn {
+        width: 50%;
+    }
+    .todo-input {
+        width: 80%;
+    }
+    .card{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
 
 .li-style{
     display: flex;

@@ -22,7 +22,6 @@ deleteButton.addEventListener("click",deleteTodo);
 //deleteTodo
 const  deleteTodo = (event)=>{
 const selectTodo = event.target.closest("li");
-console.log("Selected Todo ID:", selectTodo);
 todolists.removeChild(selectTodo);
 showMessage("todo is removed successfully","danger");
 //delete todo from localstorage
